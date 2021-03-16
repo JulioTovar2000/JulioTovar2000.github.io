@@ -1,0 +1,33 @@
+body{
+    width: 900px;
+    margin: auto;
+    font-family: arial;
+}
+
+.contenido{
+    background-color: green;
+}
+
+header{
+    text-align: center;
+}
+
+.formulario{
+    padding: 15px;
+}
+
+table{
+    padding: 15px;
+    width: 100%;
+}
+
+th{
+    border: solid black;
+}
+
+.tabla-estilo{
+    padding: 15px;
+    width: 100%;
+    border: solid black;
+    text-align: center;
+}

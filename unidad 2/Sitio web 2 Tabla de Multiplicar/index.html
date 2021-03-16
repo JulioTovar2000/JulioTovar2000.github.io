@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    
+    <body>
+    	<h1 align="center">Tablas de multiplicar</h1>
+        <div align="center">
+        	<label for="num">Introduce un número: </label>
+        	<input type="text" name="" id="num" />
+    	</div>
+
+    	<div align="center">
+        	<label for="valor2">Introduce cuantas veces se va a multiplicar</label>
+        	<input type="text" name="" id="valor2">
+    	</div>
+    
+        <div align="center"><button id="genera">MULTIPLICACIÓN</button></div>
+    
+        <div align="center" id="multi"></div>
+    
+    <script>
+      let genera = document.getElementById("genera")
+      let numero = document.getElementById("num")
+      let lienzo = document.getElementById("multi")
+      let tope = document.getElementById("valor2")
+    
+      genera.addEventListener("click", () => {
+        for(let i = 1; i<=tope.value; i++) {
+          lienzo.innerHTML += `${numero.value} * ${i} = ${numero.value*i} <br />`
+        }
+      })
+    
+    </script>
+    </body>
+    
+    </html>
