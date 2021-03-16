@@ -1,0 +1,151 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+
+	background: url("img/background_buildings.png");
+}
+
+.Principal{
+
+	width: 70%;
+	margin-left: 15%;
+	
+}
+
+.grid{
+
+	display: grid;
+	display: flex;
+	padding: 5% 3% 0% 3%;
+	width: 30%;
+}
+
+.grid2{
+
+	display: grid;
+	grid-template-columns: auto;
+	padding: 0% 3% 0% 3%;
+	width: 70%;
+}
+
+header{
+
+	color: white;
+	background-color: black;
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}
+
+nav{
+
+	background-color: orange;
+	border: solid 1px;
+	border-color: orange;
+
+}
+
+nav ul li{
+
+	display: inline;
+
+}
+
+nav ul li a{
+
+	text-decoration: none;
+	margin-right: 2%;
+	color: black;
+
+}
+
+nav ul li a:hover{
+
+	color:#008080;
+}
+
+.Tercera{
+
+	border:solid 1px;
+}
+
+.Segunda{
+
+	display: flex;
+	border:solid 1px;
+	background-color: #FFFF;
+	padding: 3% 8% 3% 8%;
+}
+
+main{
+
+	width: 70%;
+
+	margin-right: 7%;
+}
+
+aside{
+
+	
+	width: 50%;
+}
+
+.grid3{
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+	
+	padding-right:10%; 
+    padding-left:5%;
+    width: 80%;
+	
+}
+
+
+.item > img{
+ 
+    border-radius:10px;
+    margin: 1px 1px 1px 1px;
+    width:80%;
+
+
+}
+
+.Quinta{
+
+	display: flex;
+	 border: solid 1px;
+}
+
+
+.phone > img{
+
+	width: 80%;
+}
+
+.link{
+
+	float: right;
+}
+
+.Sexta{
+
+	margin-right: 6%;
+	background-color: gray;
+	width: 915px;
+	height: 200px;
+}
+
+.Septima{
+
+	padding: 4%;
+}
+
+article{
+
+	margin-bottom: 15%;
+}

@@ -1,0 +1,68 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.principal{
+
+	width: 70%;
+	margin left: 15%;
+
+}
+
+#fotoautor{
+	width: 150px;
+	height: 150px;
+}
+
+.grid{
+	display: grid;
+	display: flex;
+	padding: 5% 3% 0% 3%;
+	width: 30%;
+}
+
+header{
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}
+
+main{
+	width: 70%;
+	margin-right: 7%
+}
+
+.primero{
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}
+
+.segunda{
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}
+
+.tercera{
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}
+
+.cuarta{
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}
+
+.quinta{
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}
+
+.sexta{
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}
+
+.septima{
+	display: flex;
+	padding: 3% 3% 3% 3%;
+}

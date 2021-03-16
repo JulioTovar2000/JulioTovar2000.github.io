@@ -1,0 +1,22 @@
+body{
+	background-color: cyan;
+}
+
+h2{
+	font-family: Arial;
+	background-color: orange;
+}
+
+h3{
+	font-family: fantasy;
+}
+
+a{
+	font-family: Arial;
+	font-size: 12;
+}
+
+img{
+	background-color: orange;
+}
+
