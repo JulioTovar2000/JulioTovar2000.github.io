@@ -1,0 +1,52 @@
+
+body{
+	background-color: #E87461;
+	font-family: 'Arimo', sans-serif;
+	line-height: 2;
+}
+
+select{
+	font-size: 100%;
+	width: 500px;
+	padding: 2px;
+}
+
+input[type=radio],input[type=checkbox]{
+	width: 20px;
+	height: 20px;
+}
+
+input[type=submit],input[type=reset]{
+	width: 200px;
+	height: 100px;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+label{
+	font-weight: bold;
+}
+
+.titulo{
+	position: relative;
+	text-align: center;
+	padding: 60px;
+}
+
+.cuestionario{
+	padding: 20px;
+	background-color: #E4E6B2;
+	font-size: 150%;
+	text-align: justify;
+	
+}
+
+.rectangulo{
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	top: 60px;
+	left: 660px;
+	background-color: #F5C0B8;
+	border-radius: 10px;
+}

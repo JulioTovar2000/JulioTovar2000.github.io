@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cuestionario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="rectangulo"></div>
+
+	<div class="titulo">
+		<h1>Examen: Manejo de Objetos Gráficos</h1>
+	</div>
+
+	<form action="" method="POST">
+		<div class="cuestionario">
+
+			<div>
+				<label>1. - Presenta un mecanismo amigable al usuario para interactuar con una aplicación, además que proporciona a una aplicación una “apariencia visual” única.</label><br>
+				<select name="respuesta1">
+					<option value="0"> -- Seleccione --</option>
+					<option value="1"> Interfaz de consola </option>
+					<option value="2"> Interfaz gráfica de monitoreo </option>
+					<option value="3"> Interfaz gráfica de usuario (GUI)</option>
+					<option value="4"> Aplicación de terminal</option>
+					<option value="5"> Interfaz de dibujo</option>
+				</select><br>
+			</div>
+
+			<div>
+				<label for="respuesta2">2. - Las GUIs se crean a partir de componentes de GUI; a éstos se les conoce algunas veces como controles o “widgets”.</label><br>
+				<input type="radio" name="2" id="respuesta2" value="Verdadero">Verdadero
+				<input type="radio" name="2" id="respuesta2" value="Falso">Falso
+			</div>
+
+			<div>
+				<label for="respuesta3">3. - Qué método de ActionEvent devuelve una referencia al origen del evento.</label><br>
+				<input type="radio" name="3" id="respuesta3" value="1">getButton()<br>
+				<input type="radio" name="3" id="respuesta3" value="2">getOrigin()<br>
+				<input type="radio" name="3" id="respuesta3" value="3">getCommand()<br>
+				<input type="radio" name="3" id="respuesta3" value="4">getControl()<br>
+				<input type="radio" name="3" id="respuesta3" value="5">getSource()<br>
+			</div>
+
+			<div>
+				<label>4. - En qué paquete se encuentra la mayoría de los componentes de GUI de Swing en Java.</label><br>
+				<select name="respuesta4">
+					<option value="0"> -- Seleccione --</option>
+					<option value="1"> java.util</option>
+					<option value="2"> java.swing</option>
+					<option value="3"> java.awt</option>
+					<option value="4"> javax.swing</option>
+					<option value="5"> javax.swingcomponents</option>
+				</select>
+			</div>
+
+			<div>
+				<label>5. - Cuáles son las interfaces de escucha de los eventos que se usan para manejar los eventos del Mouse.</label><br>
+				<input type="checkbox" name="respuesta5" value="1">addMouseListener
+				<input type="checkbox" name="respuesta5" value="2">MouseMotionListener
+				<input type="checkbox" name="respuesta5" value="3">addMouseMotionListener
+				<input type="checkbox" name="respuesta5" value="4">MouseListener
+				<input type="checkbox" name="respuesta5" value="5">MouseEvent
+			</div>
+
+			<div>
+				<label>6. - Clase que proporciona cuadros de diálogo preempaquetados para entra-da y salida; tiene métodos como showInputDialog() y showMessageDialog().</label><br>
+				<select name="respuesta6">
+					<option value="0"> -- Seleccione --</option>
+					<option value="1"> JOptionPane</option>
+					<option value="2"> Swing</option>
+					<option value="3"> JButton</option>
+					<option value="4"> JFrame</option>
+					<option value="5"> JPanel</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="respuesta7">7. - A este tipo de clases se les llaman comúnmente clases internas, y se utilizan con frecuencia para el manejo de eventos.</label><br>
+				<input type="radio" name="7" id="respuesta7" value="1">static<br>
+				<input type="radio" name="7" id="respuesta7" value="2">no static<br>
+				<input type="radio" name="7" id="respuesta7" value="3">final<br>
+				<input type="radio" name="7" id="respuesta7" value="4">intern<br>
+			</div>
+
+			<div>
+				<label for="respuesta8">8. - Las unidades de las coordenadas se miden en píxeles. Un píxel es la unidad más pequeña de resolución de un monitor de computadora.</label><br>
+				<input type="radio" name="8" id="respuesta8" value="Verdadero">Verdadero
+				<input type="radio" name="8" id="respuesta8" value="Falso">Falso
+			</div>
+
+			<div>
+				<label>9. - Contiene métodos para dibujar cadenas, líneas, rectángulos y otras figuras. También se incluyen métodos para manipular tipos de letra y colores.</label><br>
+				<select name="respuesta9">
+					<option value="0"> -- Seleccione --</option>
+					<option value="1"> Graphics</option>
+					<option value="2"> Draw</option>
+					<option value="3"> Dibujo</option>
+					<option value="4"> Gráficos</option>
+					<option value="5"> G2D</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="respuesta10">10. - En dónde se define, por lo regular, los métodos manajadores de eventos, que posteriormente tienen que ser implementados.</label><br>
+				<input type="radio" name="10" id="respuesta10" value="1">interface<br>
+				<input type="radio" name="10" id="respuesta10" value="2">abstract class<br>
+				<input type="radio" name="10" id="respuesta10" value="3">class<br>
+				<input type="radio" name="10" id="respuesta10" value="4">event definition<br>
+			</div>
+
+			<div>
+				<input type="submit" name="" value="Enviar">
+				<input type="reset" name="" value="Reiniciar">
+			</div>
+
+		</div>
+	</form>
+</body>
+</html>
